@@ -1,7 +1,7 @@
 #	$NetBSD: Makefile,v 1.3 2012/01/07 02:07:58 mrg Exp $
 
 SUBDIR= reply keysyms render-util \
-	atom event aux .WAIT property .WAIT \
+	atom event auxiliary .WAIT property .WAIT \
 	image icccm
 
 .include <bsd.subdir.mk>
@@ -14,7 +14,7 @@ INCS=	xcb_atom.h xcb_aux.h xcb_bitops.h xcb_event.h xcb_icccm.h \
 .include <bsd.inc.mk>
 
 .PATH:	${X11SRCDIR.xcb-util}/atom
-.PATH:	${X11SRCDIR.xcb-util}/aux
+.PATH:	${X11SRCDIR.xcb-util}/auxiliary
 .PATH:	${X11SRCDIR.xcb-util}/event
 .PATH:	${X11SRCDIR.xcb-util}/icccm
 .PATH:	${X11SRCDIR.xcb-util}/image
