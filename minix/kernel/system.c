@@ -268,7 +268,7 @@ void system_init(void)
   map(SYS_SCHEDCTL, do_schedctl);	/* change process scheduler */
 
   /* Int_86 */
-  map(SYS_INT_86, do_int_86);		/* int 86 call*/
+  map(SYS_INT86, do_int86);		/* int 86 call*/
   
 }
 /*===========================================================================*

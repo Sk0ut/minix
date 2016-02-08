@@ -206,9 +206,9 @@ int do_padconf(struct proc * caller, message *m_ptr);
 #define do_padconf NULL
 #endif
 
-int do_int_86(struct proc * caller, message *m_ptr);
-#if ! USE_INT_86
-#define do_int_86 NULL
+int do_int86(struct proc * caller, message *m_ptr);
+#if ! USE_INT86
+#define do_int86 NULL
 #endif
 
 #endif	/* SYSTEM_H */

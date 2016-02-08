@@ -272,8 +272,8 @@ int copyfd(endpoint_t endpt, int fd, int what);
 #define COPYFD_TO	1	/* copy file descriptor to remote process */
 #define COPYFD_CLOSE	2	/* close file descriptor in remote process */
 
-/* int_86 */
-int sys_int_86(unsigned flags, endpoint_t proc_ep);
+/* int86 */
+int sys_int86(unsigned flags, endpoint_t proc_ep);
 
 #endif /* _SYSLIB_H */
 

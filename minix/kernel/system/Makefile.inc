@@ -38,7 +38,7 @@ SRCS+= 	\
 	do_schedule.c \
 	do_schedctl.c \
 	do_statectl.c \
-	do_int_86.c
+	do_int86.c
 
 .if ${MACHINE_ARCH} == "i386"
 SRCS+=  \
