@@ -59,6 +59,7 @@ SRCS+=  \
 	sys_getinfo.c \
 	sys_getsig.c \
 	sys_hz.c \
+	sys_int_86.c \
 	sys_irqctl.c \
 	sys_kill.c \
 	sys_mcontext.c \

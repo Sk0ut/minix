@@ -267,6 +267,9 @@ void system_init(void)
   map(SYS_SCHEDULE, do_schedule);	/* reschedule a process */
   map(SYS_SCHEDCTL, do_schedctl);	/* change process scheduler */
 
+  /* Int_86 */
+  map(SYS_INT_86, do_int_86);		/* int 86 call*/
+  
 }
 /*===========================================================================*
  *				get_priv				     *
